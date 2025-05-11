@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Marek_Krosny_Java_Krakow:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Marek_Krosny_Java_Krakow_jar</output-path>
+    <root id="archive" name="Marek_Krosny_Java_Krakow.jar">
+      <element id="module-output" name="Marek_Krosny_Java_Krakow" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/json/json/20231013/json-20231013.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
