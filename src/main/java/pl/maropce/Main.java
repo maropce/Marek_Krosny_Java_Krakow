@@ -10,6 +10,8 @@ import pl.maropce.wallet.ClientWallet;
 import pl.maropce.wallet.WalletService;
 
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.List;
 
 public class Main {
@@ -23,6 +25,14 @@ public class Main {
         String pathToOrders = args[0];
         String pathToPayments = args[1];
 
+        if (!Files.exists(Path.of(pathToOrders))) {
+            System.out.println("Cannot find file: " + pathToOrders);
+            return;
+        }
+        if (!Files.exists(Path.of(pathToPayments))) {
+            System.out.println("Cannot find file: " + pathToPayments);
+            return;
+        }
 
         ClientWallet clientWallet = new ClientWallet();
 
