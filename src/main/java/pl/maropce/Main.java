@@ -17,7 +17,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        if(args.length < 1) {
+        if(args.length < 2) {
             System.out.println("You need to pass 2 paths to jsons files as arguments: [pathToOrders] [pathToPaymentMethods]");
             return;
         }
