@@ -1,4 +1,4 @@
-# Optymalizacja płatości za zamówienia
+# Optymalizacja płatności za zamówienia
 
 Aplikacja służy do optymalizacji płatności za zamówienia wykorzystując informacje o zamówieniach, dostępnych metodach płatności oraz promocjach przy odpowiednich płatnościach, które są przypisane do danego zamówienia.
 
